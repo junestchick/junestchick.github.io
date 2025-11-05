@@ -1,372 +1,328 @@
 <!DOCTYPE html>
-
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-
-<html class="not-ie" lang="en">
-<!--<![endif]-->
-    
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="description" content="JC's resume" />
-<meta name="keywords" content="Resume"/>
-<meta name="author" content="Junest" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<title>My Resume Timeline</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Modern iOS App - Your perfect companion for everyday tasks">
+    <meta name="keywords" content="iOS, App, Mobile, iPhone, iPad">
+    <meta name="author" content="Your Company">
+    <title>iOS App - Modern & Beautiful</title>
 
-<!-- google web font-->
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-<!-- style sheets-->
-<link rel="stylesheet" media="all" href="css/bootstrap.css" type="text/css"/>
-<link rel="stylesheet" media="all" href="css/custom.css" type="text/css"/>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-<!-- main jquery libraries / others are at the bottom-->
-<script src="js/jquery.min.js" type="text/javascript"></script>
-<script src="js/modernizr.js" type="text/javascript"></script>
-
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/app-landing.css">
 </head>
 <body>
-
-<!-- Settings -->
-<div class="settings">
-    <span class="glyphicon glyphicon-cog"></span>
-    <a class="btn active top-white">White theme</a>
-    <a class="btn top-dark">Dark theme</a>
-</div>
-<!-- end Settings -->
-
-<!-- Top icons -->
-<a class="top-menu hidden-xs hidden-sm" data-toggle="tooltip" data-placement="top" title="Menu toggle"><span class="glyphicon glyphicon-th-list"></span></a>
-<a href="/CV.pdf" class="top-download-resume hidden-xs hidden-sm" data-toggle="tooltip" data-placement="top" title="Download resume"><span class="glyphicon glyphicon-cloud-download"></span></a>
-<a class="top-contact hidden-xs hidden-sm" data-toggle="tooltip" data-placement="top" title="Contact me"><span class="glyphicon glyphicon-send"></span></a>
-<!-- end Top icons -->
-
-<!-- Navigation -->
-<nav id="spy" class="spy hidden-sm hidden-xs">
-    <ul>
-        <li class="active"><a href="#profile">Profile</a></li>
-        <li><a href="#work-experience">Work experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#professional-skills">Skills</a></li>
-        <li><a href="#interests">Interests</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
-<!-- end Navigation -->
-    
-<!-- Navigation for small devices -->
-<nav id="mini-nav" class="spy visible-sm visible-xs">
-    <ul>
-        <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown">Menu</a>
-            <ul class="dropdown-menu">
-                <li class="active"><a href="#profile">Profile</a></li>
-                <li><a href="#work-experience">Work experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#professional-skills">Skills</a></li>
-                <li><a href="#interests">Interests</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </li>
-      </ul>
-</nav>
-<!-- end Navigation for small devices -->
-    
-<!-- Header -->
-<header id="header">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8 col-sm-offset-2 text-center">
-                <img src="img/face.jpg" class="face" alt="">
-                <hr class="empty">
-                <p class="header-name">&#272;&#7863;ng V&#259;n D&#361;ng</p>
-                <p class="header-title">Designer & Developer</p>
-                <p class="header-subtitle"><b>Hello my name is Dang Van Dung</b> and I'm an iOs Developer, a Designer and a Photographer from Da Nang, Viet Nam. I want to learn as much as possible  and always  try to do my best  in order to improve my skills. I am seeking a position as a software developer where I can work in a challenging environment and gain experience in working 
- research and develop new products.</p>
-            </div>
-        </div>
-    </div>
-</header>
-<!-- end Header -->
-	
-<!-- Profile -->
-<section id="profile" class="profile activate">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-7 col-sm-offset-5">
-                <ul>
-                    <li class="title"><span class="glyphicon glyphicon-user"></span>Profile</li>
-                    <li>
-                        <span class="note">Full name</span>
-                        <p><strong>Dang Van Dung</strong></p>
-                    </li>
-                    <li>
-                        <span class="note">Born</span>
-                        <p><strong>01 June 1993</strong></p>
-                        <p><strong>Quang Binh, Viet Nam</strong></p>
-                    </li>
- <li>
-                        <span class="note">Flickr site</span>
-                        <p><strong><a href="http://flickr.com/junest">http://flickr.com/junest</a></strong></p>
-                    </li>
-
-                    
-                    <li>
-                        <span class="note">LinkedIn Profile</span>
-                        <p><strong><a href="vn.linkedin.com/in/junest">vn.linkedin.com/in/junest</a></strong></p>
-                    </li>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>AppName</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#screenshots">Screenshots</a></li>
+                    <li><a href="#download" class="btn-download">Download</a></li>
                 </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- end Profile -->
+    </nav>
 
-<!-- Work experience -->
-<section id="work-experience" class="work-experience">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-7 col-sm-offset-5">
-                <ul>
-                    <li class="title"><span class="glyphicon glyphicon-briefcase"></span>Work experience</li>
-       
-                        <li>
-                        <span class="note">11/2015 - Current</span>
-                        <p><strong>iOS Developer</strong></p>
-                        <p><strong>Internship and working at Nikmesoft</strong> in Danang, VN</p>
-                        <p class="description"> I had 5 months internship and currently i have worked for 2 months at Nikmesoft Ltd. </p>
-                       </li>
-                       <li>                    
-                        <span class="note">2012 - Current</span>
-                        <p><strong>Freelancer</strong></p>
-                        <p><strong>Freelancer Designer</strong> in Danang, VN</p>
-                        <p class="description"> I worked as a designer and photographer for  many events: Autumn Meeting  Danang 2014, YXineFF 2013 and 2014, SFF 2014, Prom Le Quy Don High School 2013.... and more....</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end Work experience -->
-    
-<!-- Education -->
-<section id="education" class="education">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-7 col-sm-offset-5">
-                <ul>
-                    <li class="title"><span class="glyphicon glyphicon-book"></span>Education</li>
-                    <li>
-                        <span class="note">August 2011 - Now</span>
-                        <p><strong>University student</strong></p>
-                        <p><strong>Danang University of Technology</strong> in Danang, Vietnam</p>
-                        <p class="description"></p>
-                    </li>
-                    <li>
-                        <span class="note">August 2008 - August 2011</span>
-                        <p><strong>High school student</strong></p>
-                        <p><strong>Quang Binh gifted school</strong> in Donghoi, Vietnam</p>
-                        <p class="description"></p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end Education -->
-    
-<!-- Professional skills -->
-<section id="professional-skills" class="professional-skills">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-7 col-sm-offset-5">
-                <ul>
-                    <li class="title"><span class="glyphicon glyphicon-tasks"></span>Professional skills</li>
-                    <li>
-                        <p>Swift<span class="annotation pull-right">60%</span></p>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Experience the Future of Mobile Apps</h1>
+                    <p class="hero-description">A beautiful, intuitive iOS app designed to make your life easier. Available now on the App Store.</p>
+                    <div class="hero-buttons">
+                        <a href="#download" class="btn btn-primary">
+                            <i class="fab fa-apple"></i>
+                            Download on the App Store
+                        </a>
+                        <a href="#features" class="btn btn-secondary">
+                            Learn More
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <h3>500K+</h3>
+                            <p>Downloads</p>
                         </div>
-                    </li>
-                    <li>
-                        <p>Adobe Photoshop<span class="annotation pull-right">85%</span></p>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="stat">
+                            <h3>4.8</h3>
+                            <p>App Store Rating</p>
                         </div>
-                    </li>
-                    <li>
-                        <p>Adobe Lightroom<span class="annotation pull-right">75%</span></p>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="stat">
+                            <h3>50K+</h3>
+                            <p>Reviews</p>
                         </div>
-                    </li>
-                    <li>
-                        <p>Java programming<span class="annotation pull-right">50%</span></p>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="phone-mockup">
+                        <div class="phone-frame">
+                            <div class="phone-notch"></div>
+                            <div class="phone-screen">
+                                <div class="app-preview">
+                                    <div class="preview-header">
+                                        <div class="preview-time">9:41</div>
+                                        <div class="preview-icons">
+                                            <i class="fas fa-signal"></i>
+                                            <i class="fas fa-wifi"></i>
+                                            <i class="fas fa-battery-full"></i>
+                                        </div>
+                                    </div>
+                                    <div class="preview-content">
+                                        <h2>Welcome!</h2>
+                                        <p>Your journey starts here</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </li>
-                    <li>
-                        <p>Adobe Illustrator<span class="annotation pull-right">40%</span></p>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- end Professional skills -->
-    
-<!-- Personal skills -->
-<section id="personal-skills" class="personal-skills">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-7 col-sm-offset-5">
-                <ul>
-                    <li class="title"><span class="glyphicon glyphicon-stats"></span>Personal skills</li>
-                    <li>
-                        <span class="chart" data-percent="95"><span class="skill">Creativity</span>
-                            <span class="percent"></span>
-                        </span>
-                        <span class="chart" data-percent=65"><span class="skill">Social skills</span>
-                            <span class="percent"></span>
-                        </span>
-                        <span class="chart" data-percent="40"><span class="skill">Leadership</span>
-                            <span class="percent"></span>
-                        </span>
-                        <span class="chart" data-percent="75"><span class="skill">Analysis and logic</span>
-                            <span class="percent"></span>
-                        </span>
-                    </li>
-                </ul>
-            </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"></path>
+            </svg>
         </div>
-    </div>
-</section>
-<!-- end Personal skills -->
-    
-<!-- Interests -->
-<section id="interests" class="interests">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-7 col-sm-offset-5">
-                <ul>
-                    <li class="title"><span class="glyphicon glyphicon-heart-empty"></span>Interests</li>
-                    <li>
-                        <p><strong>Photography</strong></p>
-                        <p class="description">I love photography because I love this beautiful and colorful life. I want to save all moments, all things and all the feelings.</p>
-                    </li>
-                    <li>
-                        <p><strong>Soccer</strong></p>
-                        <p class="description">I like sport and play soccer well, my idol is Lionel Messi. My favourite football club is Barcelona FC.</p>
-                    </li>
-                    <li>
-                        <p><strong>Badminton</strong></p>
-                        <p class="description">After working time, i usually play badminton too.</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end Interests -->
-    
-<!-- Portfolio -->
-<section id="portfolio" class="portfolio">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-7 col-sm-offset-5">
-                <ul>
-                    <li class="title"><span class="glyphicon glyphicon-eye-open"></span>Portfolio</li>
-                    <li class="static">
-		     <span class="note">Flickr site</span>
-                        <p><strong><a href="http://flickr.com/junest">http://flickr.com/junest</a></strong></p>
-                        <img src="img/1.jpg" alt="" data-toggle="modal" data-target="#modal1">
-                        <img src="img/2.jpg" alt="" data-toggle="modal" data-target="#modal2">
-                        <img src="img/3.jpg" alt="" data-toggle="modal" data-target="#modal3">
-                        <img src="img/4.jpg" alt="" data-toggle="modal" data-target="#modal4">
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end Portfolio -->
-    
-<!-- Modal - photos in zoom-->
-<div id="modal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-box">
-            <img src="img/1.jpg" alt="">
-        </div>
-    </div>
-</div>
-<div id="modal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal2" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-box">
-            <img src="img/2.jpg" alt="">
-        </div>
-    </div>
-</div>
-<div id="modal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal3" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-box">
-            <img src="img/3.jpg" alt="">
-        </div>
-    </div>
-</div>
-<div id="modal4" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal4" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-box">
-            <img src="img/4.jpg" alt="">
-        </div>
-    </div>
-</div>
-<!-- end Modal - photos in zoom-->
-    
-<!-- Contact -->
-<section id="contact" class="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-7 col-sm-offset-5">
-                <ul>
-                    <li class="title"><span class="glyphicon glyphicon-envelope"></span>Contact</li>
-                    <li class="static">
-                        <span class="note">Address</span>
-                        <p><strong>F317- KTX DMC</strong></p>
-                        <p><strong>08 Ha Van Tinh st, Danang</strong></p>
-                        <span class="note">Mobile</span>
-                        <p><strong>0976 583 352</strong></p>
-               
-                        <span class="note">Email</span>
-                        <p><strong><a href="mailto:dangvandung.dev@gmail.com">dangvandung.dev@gmail.com</a></strong></p>
-                        <hr class="empty">
-       
-                    </li>
-                    <li class="title up"><span class="glyphicon glyphicon-arrow-up"></span>Up</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end Contact -->
+    </section>
 
-<!-- Java Script -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/bootstrap-progressbar.js"></script>
-<script src="js/spy.js"></script>
-<script src="js/scripts.js"></script>
-<!-- Charts -->
-<script src="js/jquery.easypiechart.js"></script>
-<script src="js/chart.js"></script>
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Powerful Features</h2>
+                <p>Everything you need in one beautiful app</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Lightning Fast</h3>
+                    <p>Optimized performance ensures smooth and responsive experience on all iOS devices.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Secure & Private</h3>
+                    <p>Your data is encrypted and never shared. Privacy is our top priority.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Beautiful Design</h3>
+                    <p>Carefully crafted interface that follows iOS design guidelines.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sync"></i>
+                    </div>
+                    <h3>Cloud Sync</h3>
+                    <p>Seamlessly sync your data across all your Apple devices via iCloud.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <h3>Dark Mode</h3>
+                    <p>Full dark mode support for comfortable viewing in any lighting condition.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3>Smart Notifications</h3>
+                    <p>Stay informed with intelligent notifications that adapt to your usage.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How It Works</h2>
+                <p>Get started in three simple steps</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Download the App</h3>
+                        <p>Get the app from the App Store and install it on your iPhone or iPad.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Create Your Account</h3>
+                        <p>Sign up in seconds with your email or Apple ID. It's quick and easy.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Start Exploring</h3>
+                        <p>Enjoy all the features and discover how the app can improve your daily life.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section id="screenshots" class="screenshots">
+        <div class="container">
+            <div class="section-header">
+                <h2>App Screenshots</h2>
+                <p>See the app in action</p>
+            </div>
+            <div class="screenshot-slider">
+                <div class="screenshot-track">
+                    <div class="screenshot">
+                        <div class="screenshot-frame">
+                            <div class="screenshot-content screenshot-1">
+                                <div class="mock-header">
+                                    <div class="mock-time">9:41</div>
+                                </div>
+                                <h3>Dashboard</h3>
+                                <div class="mock-card"></div>
+                                <div class="mock-card"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="screenshot">
+                        <div class="screenshot-frame">
+                            <div class="screenshot-content screenshot-2">
+                                <div class="mock-header">
+                                    <div class="mock-time">9:41</div>
+                                </div>
+                                <h3>Analytics</h3>
+                                <div class="mock-chart"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="screenshot">
+                        <div class="screenshot-frame">
+                            <div class="screenshot-content screenshot-3">
+                                <div class="mock-header">
+                                    <div class="mock-time">9:41</div>
+                                </div>
+                                <h3>Profile</h3>
+                                <div class="mock-avatar"></div>
+                                <div class="mock-list"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="screenshot">
+                        <div class="screenshot-frame">
+                            <div class="screenshot-content screenshot-4">
+                                <div class="mock-header">
+                                    <div class="mock-time">9:41</div>
+                                </div>
+                                <h3>Settings</h3>
+                                <div class="mock-settings"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <h2>Ready to Get Started?</h2>
+                <p>Download now and experience the difference</p>
+                <a href="#" class="btn btn-appstore">
+                    <i class="fab fa-apple"></i>
+                    <div>
+                        <span>Download on the</span>
+                        <strong>App Store</strong>
+                    </div>
+                </a>
+                <div class="download-info">
+                    <p>Requires iOS 14.0 or later. Compatible with iPhone, iPad, and iPod touch.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>AppName</span>
+                    </div>
+                    <p>Making your life easier, one tap at a time.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#screenshots">Screenshots</a></li>
+                        <li><a href="#download">Download</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">EULA</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AppName. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/app-landing.js"></script>
 </body>
-</html>				
+</html>
